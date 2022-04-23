@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myform</title>
+    <link rel="stylesheet" href="StyleMyform.css">
+</head>
+<body>
+    <form action="registration">
+        <legend>
+            <p> REGISTRATION FORM</p>
+        </legend>
+        <section>
+            
+                <fieldset class="f1">
+                    <nav>
+                    <label> Name :</label>
+                    <input type="text" name="name" >
+                    </nav>
+                    <nav>
+                    <label> Age :</label>
+                    <input type="number" name="Age">
+                    </nav>
+                    <nav>
+                    <label> Birth day :</label>
+                    <input type="date" name="name" value="jj-mm-aaaa">
+                    </nav>
+                    <nav>
+                    <label>Gender :</label>
+                        <select name="" id="f1s1">
+                            <option value="Gender" selected><strong>Male</strong></option>
+                            <option value="Gender" selected><strong>Female</strong></option>
+                        </select>
+                    </nav>
+                </fieldset>
+                <fieldset>
+                    <legend>Attendees</legend>
+                    
+                    <nav>
+                        <label>Under 20 :</label>
+                        <input type="checkbox" name="age" value="number">
+                    </nav>
+                    <nav>
+                        <label>Under 40 :</label>
+                        <input type="checkbox" name="age" value="number">
+                    </nav>
+                    <nav>
+                        <label>Over 41 :</label>
+                        <input type="checkbox" name="age" value="number">  
+                    </nav>
+                    </fieldset>
+                <fieldset>
+                    <legend>Entry fees</legend>
+                    <nav>
+                        <label>2.000 Fcfa</label>
+                        <input type="radio" name="age" value="number"> 
+                    </nav>
+                    <nav>
+                        <label>5.000 Fcfa</label>
+                        <input type="radio" name="age" value="number">
+                    </nav>
+                    <nav>
+                        <label>1.000 Fcfa</label>
+                        <input type="radio" name="age" value="number">
+                    </nav>
+                </fieldset>
+                <fieldset>
+                    <legend>description</legend>
+                    <nav>
+                        <textarea name="comment" >Put some descrition here</textarea>
+                        <input type="submit" name="" value="Submit the form" style="font-weight: bolder;font-size: 10px;">
+                    </nav>
+                    
+                </fieldset>
+            </section>
+    </form>
+    
+</body>
+</html>
